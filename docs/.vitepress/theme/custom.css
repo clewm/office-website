@@ -1,0 +1,16 @@
+/* custom.css */
+:root {
+    --vp-c-brand-1: #000;
+    --vp-c-brand-2: #5569FC;
+    --vp-c-brand-3: #5569FC;
+  }
+
+  /* .vitepress/theme/custom.css */
+.dark {
+  --vp-c-brand-1: #04f692; /* 黑暗模式下的品牌主色调 */
+  --vp-c-brand-2: #5569FC; /* 黑暗模式下的品牌次色调 */
+  --vp-c-brand-3: #5569FC; /* 黑暗模式下的按钮颜色 */
+
+  --vp-c-text-1: #eee; /* 黑暗模式下的主文字颜色 */
+  /* --vp-c-bg: #333; /* 黑暗模式下的背景颜色 */
+}
