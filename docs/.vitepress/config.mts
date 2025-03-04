@@ -11,8 +11,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '软件一览', link: '/markdown-examples' }
+      { text: '软件一览', link: '/my-app-list' }
     ],
+
+     outlineTitle:"导航",
   
     logo: "/logo-hz.svg",
     lastUpdated: {
@@ -25,16 +27,22 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '☀ 已发布的软件',
+        text: '🌙 概览',
         items: [
-          { text: '软件1', link: '/markdown-examples' },
+          { text: '软件一览', link: '/my-app-list' },
+        ]
+      },
+      {
+        text: '🌙 已发布的软件',
+        items: [
+          { text: '#1 集梦盒', link: '/app-jmh' },
   
         ]
       },
       {
         text: '🌳 正在开发中的软件',
         items: [
-          { text: '软件2', link: '/api-examples' }
+          { text: '一款关于情侣互动的App', link: '/app-qlb' }
         ]
       }
     ],

@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 💻已发布 / 开发中APP一览
-      link: /markdown-examples
+      link: /my-app-list
     - theme: alt
       text: 🔈APP点子 / 建议 / 吐槽入口
-      link: /api-examples
+      link: /about
     - theme: alt
       text: 📱前往B站 / 抖音 / 小红书主页
       link: https://link3.cc/hulab
