@@ -27,22 +27,22 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '🌙 概览',
+        text: '📱 App清单',
         items: [
           { text: '软件一览', link: '/my-app-list' },
         ]
       },
       {
-        text: '🌙 已发布的软件',
+        text: '🌻 已发布的软件',
         items: [
           { text: '#1 集梦盒', link: '/app-jmh' },
   
         ]
       },
       {
-        text: '🌳 正在开发中的软件',
+        text: '🍎 正在开发中的软件',
         items: [
-          { text: '一款关于情侣互动的App', link: '/app-qlb' }
+          { text: '#1 一款关于情侣互动的App', link: '/app-qlb' }
         ]
       }
     ],
